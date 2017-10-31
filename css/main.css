@@ -1,3 +1,83 @@
-/*
- * Estilos de tu proyecto
- */
+/* Estilos de tu proyecto*/
+body {
+margin: 0;
+font-family: 'Montserrat', sans-serif;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+/*Estilos DEL Navegador */
+header {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  height: 640px;
+  background-image: url(../assets/images/hero.gif);
+  background-size: 100%;
+  padding-top: 0;
+  margin-top: 0;
+  background-position: bottom;
+}
+
+nav {
+width: 100%;
+text-align: left;
+transform: translateY(50%);
+height: 100px;
+}
+
+.nav-lyft ul {
+  list-style: none;
+  margin: 0;
+  padding-left: 70px;
+  padding-right: 120px;
+}
+
+li {
+  display: inline-block;
+  padding: 0 20px 0 20px;
+  box-sizing: border-box;
+}
+
+.li-right {
+  transform: translateY(-50%);
+}
+
+li .botton {
+
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+}
+
+.botton {
+  border: 2px solid white;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 8px;
+}
+
+a img {
+  width: 65px;
+}
+
+.logo {
+  width: 700px;
+}
+/*Primera parte del body*/
+section {
+  width: 100%;
+  overflow: auto;
+}
+
+.first-box {
+  float: right;
+  width: 560px;
+  height: 420px;
+  background-color: white;
+  margin-top: 30px;
+}
