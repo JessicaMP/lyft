@@ -139,7 +139,7 @@ button {
   bottom: 20px;
 }
 
-/* Segunda secciÃ³n*/
+/* Segunda sección*/
 .second {
 
 }
@@ -178,11 +178,15 @@ section.second {
 .box-rigth img {
   width: 500px;
 }
-/*SecciÃ³n video*/
+/*Sección video*/
 
 /*Primera parte*/
 .video-first-section {
   overflow: auto;
+}
+
+.video {
+  height: 30rem;
 }
 
 .video-first-section-left {
@@ -228,39 +232,36 @@ section.second {
   width: 500px;
 }
 /**************footer****************/
-.text-uppercase {
-  text-transform: uppercase;
-}
-
 footer {
   background: #333447;
   width: 100%;
-   height: 430px;
+   height: 530px;
    text-align: center;
    color: white;
-   padding-left: 105px;
+   padding-left: 155px;
    box-sizing: border-box;
    font-family: 'Montserrat', sans-serif;
  }
 
  div.footer {
-   column-width: 25%;
+   column-width: 20%;
    column-count: 4;
    column-gap: 7px;
    text-align: justify;
-   padding: 21px;
+   padding-top: 21px;
+   width: 950px;
  }
  div.foot {
-   width: 200px;
+   width: 150px;
    height: 235px;
-   box-sizing: border-box;
-   padding-top: 21px;
-   line-height: 1.4;
+   padding: 21px 61px 0 0;
+   line-height: 1.7;
 
  }
-  div.image {
+  div .image {
     display: inline-block;
-    padding-top: 14px;
+    padding-top: 21px;
+    padding-left: 30px;
   }
 
 .image img {
@@ -272,10 +273,15 @@ footer {
   box-sizing: border-box;
 }
 
+.icono {
+  padding-top: 50px;
+  margin-left: -200px;
+}
+
 i.icon{
   font-size: 18px;
   border-radius: 50px;
-  padding: 12px;
+  padding: 10px;
   border: 1px solid white;
   height: 14px;
   width: 14px;
@@ -283,8 +289,15 @@ i.icon{
 }
 hr {
   width: 70%;
-  margin-left: 100px;
+  margin-left: 50px;
 }
+
+.terms {
+  display: inline-block;
+  padding-top: 20px;
+  margin-left: -200px;
+}
+
 a.link {
   text-decoration: none;
   color: white;
