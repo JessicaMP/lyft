@@ -1,32 +1,30 @@
-/* Estilos de tu proyecto*/
+/* Estilos de mi proyecto*/
 body {
-margin: 0;
-font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
 }
 
 .text-uppercase {
   text-transform: uppercase;
 }
-/*Estilos DEL Navegador */
 
 header {
-  width: 100%;
-  margin: 0;
-  padding: 0;
-  height: 640px;
   background-image: url(../assets/images/hero.gif);
-  background-size: 100%;
-  padding-top: 0;
-  margin-top: 0;
   background-position: bottom;
   background-repeat: no-repeat;
+  background-size: 100%;
+  height: 640px;
+  margin: 0;
+  padding: 0;
+  padding-top: 0;
+  width: 100%;
 }
 
 nav {
-width: 100%;
-text-align: left;
-transform: translateY(50%);
-height: 100px;
+  height: 100px;
+  text-align: left;
+  transform: translateY(50%);
+  width: 100%;
 }
 
 .nav-lyft ul {
@@ -37,9 +35,9 @@ height: 100px;
 }
 
 li {
+  box-sizing: border-box;
   display: inline-block;
   padding: 0 20px 0 20px;
-  box-sizing: border-box;
 }
 
 .li-right {
@@ -47,16 +45,16 @@ li {
 }
 
 .li-right a {
-  text-decoration: none;
   color: white;
   font-size: 18px;
+  text-decoration: none;
 }
 
 .botton {
   border: 2px solid white;
-  padding: 10px;
-  box-sizing: border-box;
   border-radius: 8px;
+  box-sizing: border-box;
+  padding: 10px;
 }
 
 a img {
@@ -68,19 +66,19 @@ a img {
 }
 /*Primera parte del body*/
 section {
-  width: 100%;
   overflow: auto;
+  width: 100%;
 }
 
 .first-box {
+  background-color: white;
   box-sizing: border-box;
-  padding: 50px;
   color: rgb(18, 12, 69);
   float: right;
-  width: 560px;
   height: 420px;
-  background-color: white;
   margin-top: 35px;
+  padding: 50px;
+  width: 560px;
 }
 
 h1 {
@@ -89,13 +87,12 @@ h1 {
 }
 
 .first-box span {
-  margin-top: 15px;
   font-weight: 600;
   display: inline-block;
+  margin-top: 15px;
 }
 
 input {
-  width: 90%;
   height: 14px;
   border:none;
   border-bottom: 1px solid blue;
@@ -103,6 +100,7 @@ input {
   margin: 14px 0;
   font-size: 16px;
   font-weight: 300;
+  width: 90%;
 }
 
 button {
@@ -136,14 +134,10 @@ button {
   height: 7rem;
   background: linear-gradient(transparent,#76278f);
   position: relative;
-  bottom: 20px;
+  bottom: 28px;
 }
 
-/* Segunda sección*/
-.second {
-
-}
-
+/* Segunda secciï¿½n*/
 section.second {
   background: linear-gradient(#76278F, #2B1E66);
   column-count: 2;
@@ -178,20 +172,24 @@ section.second {
 .box-rigth img {
   width: 500px;
 }
-/*Sección video*/
+/*Secciï¿½n video*/
+.videos {
+  width: 100%;
+}
+
+iframe {
+  vertical-align: middle;
+}
 
 /*Primera parte*/
 .video-first-section {
   overflow: auto;
 }
 
-.video {
-  height: 30rem;
-}
-
 .video-first-section-left {
   float: left;
   width: 500px;
+    vertical-align: top;
 }
 
  .h6 {
